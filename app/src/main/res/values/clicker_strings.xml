@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clicker_description">Автокликер: нажимает в заданных точках экрана и вводит текст в поле.</string>
+</resources>
