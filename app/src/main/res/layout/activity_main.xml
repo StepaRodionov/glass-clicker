@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Настройки кликера"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Точка 1 — поле ввода (можно оставить пустой, если текст не нужен):" />
+
+        <EditText
+            android:id="@+id/et_field_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="X поля"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_field_y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Y поля"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Текст для ввода"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Точка 2 — кнопка, на которую нажимать:" />
+
+        <EditText
+            android:id="@+id/et_btn_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="X кнопки"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_btn_y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Y кнопки"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_interval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Интервал, мс (минимум 1000)"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Сохранить" />
+
+        <Button
+            android:id="@+id/btn_access"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Открыть спец. возможности" />
+
+    </LinearLayout>
+</ScrollView>
